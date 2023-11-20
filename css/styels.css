@@ -11,35 +11,42 @@
 
 
 .pagewidth {
-    width: 1600px;
+    width: 85%;
     margin: 0px auto;
   }
 
 
 /* Blå menu */
 .Bannertop {
-    height: 50px;
+    height: 40px;
     background-color:#5FA0FC;
     text-align: center;
 }
 
 .Bannertop p {
-    padding-top: 14px;
+    padding-top: 10px;
     color: #F4F4F4;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
 }
 /* Blå menu */
 
 
+
+/* hero */
 .hero img {
-    max-width: 1600px;
+    max-width: 100%;
 }
 
 .hero {
     display: flex;
     justify-content: center;
 }
+/* hero */
+
+
+
+
 
 .pp {
     margin-top: 30px;
@@ -48,6 +55,7 @@
     justify-content: center;
     color: #000000;
 }
+
 .boxmenu {
 display: flex;
 justify-content: center;
@@ -64,21 +72,21 @@ p {
 }
 
 .cart img{ 
-height: 40px;
+height: 30px;
 margin-top: 35px;
 margin-right:20px;
 
 }
 
 .logo img {
-    width: 80px;
-    margin-top: 10px;
+    width: 60px;
+    margin-top: 5px;
     margin-left: 10px;
 }
 
 .logomenu {
     background-color:#FFFF;
-    height: 100px;
+    height: 70px;
     display: flex;
 
 }
@@ -87,7 +95,7 @@ margin-right:20px;
 
 /* søgbar top */
 .d-flex{
-margin-top: 38px;
+margin-top: 30px;
 
 }
 
@@ -98,10 +106,10 @@ margin-top: 38px;
 }
 
 .form-control {
-    padding: 20px;
+    padding: 14px;
     width: 400px;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 15px;
    }
 /* søgbar top */
 
@@ -109,7 +117,7 @@ margin-top: 38px;
 
 /* navagation top */
 .navagation{
-    height: 90px;
+    height: 70px;
     background-color: #565656;
     margin-bottom: 2px;
 }
@@ -156,7 +164,7 @@ margin-top: 38px;
     transform: translate(-50%, -50%);
     font-size: 30px;
     height: 150px;
-    width: 400px; 
+    width: 100%; 
     background-color: #cececeef;
     display: flex;
     justify-content: center;
@@ -201,8 +209,17 @@ margin-top: 38px;
     justify-content: center; 
 }
 
-.box11 img {
+.box11 img, .box111 img {
     margin-right:20px;
+    width:100%;
+ }
+.box11, .box111  {
+    margin-right: 10px;
+}
+ .box22 img, 
+ .box222 img {
+    margin-right:20px;
+    width:100%;
  }
 
 .boxmenu3 {
@@ -247,9 +264,6 @@ padding-top: 30px;}
 
 
 
-
-
-
 /*søgbox i bunden*/
 .søgbox1{
     background-color:#9e9e9e;
@@ -257,8 +271,6 @@ padding-top: 30px;}
     border: none;
 }
 /*søgbox i bunden*/
-
-
 
 
 
@@ -271,15 +283,13 @@ padding-top: 30px;}
     display: flex;
     justify-content: center;
 
-
 }
 
 .navagation2 a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
+    
 }
-
-
 
 
 
@@ -292,9 +302,6 @@ padding-top: 30px;}
 
 
 /* 
-
-
-
 
 
 */
